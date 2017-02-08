@@ -9,26 +9,26 @@
 Pod::Spec.new do |s|
 
 
-  s.name         = "NSObject-Swizzled"
-  s.version      = "1.0.0"
-  s.summary      = "Object容器异常处理"
+s.name         = "NSObject-Swizzled"
+s.version      = "1.0.0"
+s.summary      = "Object容器异常处理"
 
 
-  s.description  = <<-DESC
-    防止容器 因nil或者越界造成的崩溃
-                   DESC
+s.description  = <<-DESC
+防止容器 因nil或者越界造成的崩溃
+DESC
 
-  s.homepage     = "https://github.com/iOSMaxZN/NSObject-Swizzled"
+s.homepage     = "https://github.com/iOSMaxZN/NSObject-Swizzled"
 
-  s.license      = "MIT"
+s.license      = "MIT"
 
-  s.author       = { "iOSMax" => "iOSMax_ZN@163.com" }
-  s.platform     = :ios,'6.0'
+s.author       = { "iOSMax" => "iOSMax_ZN@163.com" }
+s.platform     = :ios,'6.0'
 
-  s.source       = { :git => "https://github.com/iOSMaxZN/NSObject-Swizzled.git", :tag => "#{s.version}" }
-s.source_files = "NSObject-Swizzled/*"
-  s.framework    = "UIKit"
+s.source       = { :git => "https://github.com/iOSMaxZN/NSObject-Swizzled.git", :tag => "#{s.version}" }
+s.source_files = "NSObject-Swizzled/**/*.{h,m}"
+s.framework    = "UIKit"
 
-  s.requires_arc = false
+s.requires_arc = false
 
 end
