@@ -26,8 +26,9 @@ s.author       = { "iOSMax" => "iOSMax_ZN@163.com" }
 s.platform     = :ios,'6.0'
 
 s.source       = { :git => "https://github.com/iOSMaxZN/NSObject-Swizzled.git", :tag => "#{s.version}" }
-s.source_files = "NSObject-Swizzled/**/*.{h,m}"
+s.source_files = "NSObject+Swizzled/**/*.{h,m}"
 s.framework    = "UIKit"
+s.module_name  = 'NSObject+Swizzled'
 
 s.requires_arc = false
 
