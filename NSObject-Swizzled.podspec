@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios,'6.0'
 
   s.source       = { :git => "https://github.com/iOSMaxZN/NSObject-Swizzled.git", :tag => "#{s.version}" }
-  s.source_files = "**/*.{h,m}"
+s.source_files = "*.{h,m}"
   s.framework    = "UIKit"
 
   s.requires_arc = false
